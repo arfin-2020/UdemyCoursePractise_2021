@@ -1,18 +1,11 @@
-import 'react-native-gesture-handler';
-enableScreens();
-
-import React from 'react';
-import {enableScreens} from 'react-native-screens';
-import {Provider} from 'react-redux';
-
-import {store} from './src/redux/configureStore';
-import Navigator from './src/routes/MainNavigator';
+import  React, {useState} from 'react';
+import { Text, View, StyleSheet, TextInput, Button } from 'react-native';
 
 const App = () => {
   return (
-    <Provider store={store}>
-      <Navigator />
-    </Provider>
+    <View>
+      <Text>Hello I am learining React native</Text>
+    </View>
   );
 };
 
